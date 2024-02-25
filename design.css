@@ -1,0 +1,49 @@
+.navbar{
+    overflow: hidden;
+}
+.navbar a{
+float: left; 
+color: #f2f2f2;
+text-align: center;
+padding: 20px 24px;
+font-size: 30 px;
+text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbar a.active{
+    background-color: #04aa6d;
+    color: white;
+}
+.myVideo {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 0;
+}
+.cont{
+    text-align: center;
+}
+.cont h1{
+    color: aliceblue;
+    font-size: 140px;
+    transition: 0.5s;
+}
+.cont h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+.cont a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    background-color: rgb(8, 245, 146);
+    font-size: 40px;
+}
+.cont a:hover
+{
+    background-color: rgb(139, 19, 19);
+    color: whitesmoke;
+}
